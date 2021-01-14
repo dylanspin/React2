@@ -74,11 +74,11 @@
 
 
 
-const addres = {
-  street: '',
-  city: '',
-  country: ''
-};
+// const addres = {
+//   street: '',
+//   city: '',
+//   country: ''
+// };
 
 //foute manier
 // const street = address.street;
@@ -101,8 +101,41 @@ const addres = {
 
 
 
-const first = {name: 'Dylan'};
-const second = {job:'Student'};
+// const first = {name: 'Dylan'};
+// const second = {job:'Student'};
+//
+// const combined = {...first, ...second,location : 'Netherlands'};
+// console.log(combined);
 
-const combined = {...first, ...second,location : 'Netherlands'};
-console.log(combined);
+
+
+// class Person {
+//   constructor(name){
+//     this.name = name;
+//   }
+//
+//   walk(){
+//     console.log("walk");
+//   }
+// }
+//
+// class Teacher extends Person{
+//   constructor(name,degree){
+//     super(name);//gaat naar de parent dus Person class
+//     this.degree = degree;
+//   }
+//   teach(){
+//     console.log("teach");
+//   }
+// }
+//
+// const teacher = new Teacher("Dylan","STC");
+
+
+
+// import { Teacher } from './teacher';//pakt class teacher
+// import Teacher from './teacher';//pakt class teacher zonder {} kan alleen als er default in de class staat
+// import { promote } from './teacher';//pakt function promote wat een named export is
+//
+// const teacher = new Teacher("Dylan","STC");
+// teacher.teach();
